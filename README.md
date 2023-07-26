@@ -1,15 +1,18 @@
-Age Predictor Model
+## Jetson Finger Mouse
 
-This model is used to predict peoples ages based on their face. It is trained on an imagenet Resnet-18 model using transfer learning. The idea is that if the model overpredicts your age, you might have some sort of skin problems.
+Jetson Finger Mouse is a project that turns your finger into a mouse.
 
-![A computer analyzes a face.](https://imgur.com/HeyVfsW)
-
-## The Algorithm
-The algorithim is used by recording a video on a Logitech webcam - supported by Jetson nano. It uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. It uses a facenet to find a persons face in the image, then it crops the image to just hold the face. It then sends the face to the transfer learning model. The transfer model then predicts your age. It will try to guess your age to the best of its abilities. Then it will print out the age is it is confident. It is up to the user to interepret the information.
-Note: I ran this model on a realivly low epoch with information that was askew. The pretrained model is quite inacurrate.
+# Requirements
+Install the requirements using Bash:
+```bash
+sudo apt-get update
+sudo apt-get install python3-tk python3-dev
+pip3 install pyautogui python-xlib
+```
+Make sure you have a webcam connected
 ## Running this project
 
-1. Connect to your Jetson Nano via VSCODE. 
+1. Connect to your Jetson Nano via VSCODE.      
 2. Connect your Webcam (preferably logitech)
 3. Ensure that you have the proper things installed. The Renet18.onnx and all others like that - the ones that say resnet18.onnx and the final_project2.py. Also, esure that you have the labels.txt file.
 4. Since using teh preflashed SD card, there sould be a docker container. This is accesable by implementing this code. Change directories into jetson-inference/build/aarch64/bin. - use this code if your in the home.$ cd jetson-inference/build/aarch64/bin
