@@ -2,6 +2,7 @@
 
 Jetson Finger Mouse is a project that turns your finger into a mouse.
 <details open>
+
 ## <summary>Requirements</summary>
 
 Install the requirements using Bash:
