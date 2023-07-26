@@ -18,4 +18,4 @@ Note: I ran this model on a realivly low epoch with information that was askew. 
 6b. You should see a video popup of your face. Note how it is not a smooth stream of images. It should be a headshot of you and your face, and there should be some blakc space.
 7. The model is up and running, and so you should just put your face in clear view infront of the camera and watch as it tries to predict your age!
 
-[View a video explanation here](video link) test
+[View a video explanation here](video link)
