@@ -19,5 +19,3 @@ while display.IsStreaming():
         for detection in detections:
                 if net.GetClassDesc(detection.ClassID) == "index":
                         pyautogui.moveTo(detection.Center)
-
-
