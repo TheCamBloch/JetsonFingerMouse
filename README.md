@@ -10,7 +10,7 @@ Install the requirements using Bash:
 apt-get install python3-tk python3-dev
 pip3 install pyautogui python-xlib
 ```
->**Note** `apt-get update` might be necessary
+>**Note:** `apt-get update` might be necessary
 ### 2. Cloning the respository
 Change directories into you `jetson-inference` folder and run the Docker container:
 ```bash
