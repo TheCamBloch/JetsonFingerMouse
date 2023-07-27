@@ -2,7 +2,7 @@ import jetson.inference
 import jetson.utils
 import pyautogui
 
-net = jetson.inference.detectNet(argv=["--model=models/thing/ssd-mobilenet.onnx", "--labels=models/thing/labels.txt", "--input-blob=input_0", "--output-cvg=scores", "--output-bbox=boxes"], threshold=0.5)
+net = jetson.inference.detectNet(argv=["--model=ssd-mobilenet.onnx", "--labels.txt", "--input-blob=input_0", "--output-cvg=scores", "--output-bbox=boxes"], threshold=0.5)
 camera = jetson.utils.videoSource("/dev/video0")
 display = jetson.utils.videoOutput("display://0")
 ScreenSize = pyautogui.size()

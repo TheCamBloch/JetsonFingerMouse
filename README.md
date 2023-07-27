@@ -25,6 +25,7 @@ pip3 install pyautogui python-xlib
 ## Running the project
 The project can be run by simply executing the `main.py` file:
 ```bash
+cd JestsonFingerMouse
 python3 main.py
 ```
 
