@@ -2,7 +2,7 @@
 Jetson Finger Mouse is a project that turns your finger into a mouse using [Jetson Inference](https://github.com/dusty-nv/jetson-inference).
 
 ## Instalation
-A video of the full instaltion process can be found [here](https://youtu.be/3vqiiSZGVa4) if needed.
+A video of the full instalation process can be found [here](https://youtu.be/3vqiiSZGVa4) if needed.
 ### 1. Cloning the respository
 Change directories into you `jetson-inference` folder and run the Docker container:
 ```bash
