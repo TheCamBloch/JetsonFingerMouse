@@ -15,7 +15,7 @@ pip3 install pyautogui python-xlib
 Change directories into you `jetson-inference` folder and run the Docker container:
 ```bash
 cd jetson-inference
-./docker/run,sh
+./docker/run.sh
 ```
 Clone the repository:
 ```bash
