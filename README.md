@@ -30,4 +30,4 @@ python3 main.py
 ```
 
 After loading the model, a window should pop up showing the webcam stream with bounding boxes.
-<img src="https://photos.app.goo.gl/cxuUj61xhcYAjNjRA" alt="Running the model"/>
+<img src="https://lh3.googleusercontent.com/pw/AIL4fc-LWDWeD4-Q9lskQttd-U6RKPfndc9yJ5jEdtTdrtAtuSBJ5-fIBjuscIxc6L6xHbS4CPL914uYweecFvCJ1b_785LUXDdry_9pkyR1fqGJHlOL9Q=w2400" alt="Running the model" align="center"/>
