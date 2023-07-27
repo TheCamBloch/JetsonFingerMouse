@@ -1,6 +1,6 @@
 # <h1 align="center">Jetson Finger Mouse</h1>
 
-Jetson Finger Mouse is a project that turns your finger into a mouse.
+Jetson Finger Mouse is a project that turns your finger into a mouse using [Jetson Inference](https://github.com/dusty-nv/jetson-inference).
 
 ## Instalation
 
