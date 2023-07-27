@@ -29,6 +29,8 @@ cd JestsonFingerMouse
 python3 main.py
 ```
 
-After loading the model, a window should pop up showing the webcam stream with bounding boxes.
+After loading the model, a window should pop up showing the webcam stream with bounding boxes. The cursor should move to the center of the bounding box.
 <img src="https://lh3.googleusercontent.com/pw/AIL4fc-LWDWeD4-Q9lskQttd-U6RKPfndc9yJ5jEdtTdrtAtuSBJ5-fIBjuscIxc6L6xHbS4CPL914uYweecFvCJ1b_785LUXDdry_9pkyR1fqGJHlOL9Q=w2400" alt="Running the model" align="center"/>
-The cursor should move to the center of the bounding box.
+
+## How it works
+This model is a retrained version of `ssd_mobilenet_v2`. I took pictures of my hand in various positions and labeled it using the `camera-capture tool`. Then, using `train_ssd.py`, I utilized transfer learning to teach the network. As for the main python file, I used the Center attribute of the network's detections to be passed into `pyautogui.moveTo()`.
