@@ -1,4 +1,4 @@
-# <h1 style="text-align: center;">Jetson Finger Mouse</h1>
+# <h1 align="center">Jetson Finger Mouse</h1>
 
 Jetson Finger Mouse is a project that turns your finger into a mouse.
 
