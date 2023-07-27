@@ -30,4 +30,4 @@ python3 main.py
 ```
 
 After loading the model, a window should pop up showing the webcam stream with bounding boxes.
-![Running the model](https://i.ibb.co/j4xV4j1/screenshot.png)
+<img src="https://i.ibb.co/j4xV4j1/screenshot.png" alt="Running the model" align="center"/>
