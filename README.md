@@ -18,7 +18,7 @@ git clone https://github.com/TheCamBloch/JetsonFingerMouse
 Install the requirements:
 ```bash
 apt-get install python3-tk python3-dev
-pip3 install pyautogui python-xlib
+pip3 install pyautogui xlib
 ```
 >**Note:** `apt-get update` might be necessary
 
@@ -30,3 +30,4 @@ python3 main.py
 ```
 
 After loading the model, a window should pop up showing the webcam stream with bounding boxes.
+![Running the model](https://ibb.co/dK3bKHz)
